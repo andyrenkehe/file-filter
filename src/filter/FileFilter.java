@@ -9,7 +9,6 @@ import java.io.OutputStream;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-//import java.util.Scanner;
 
 public class FileFilter {
 	private static final String DEFAULT_DIRECTORY = "";//填写输出目录
@@ -17,16 +16,8 @@ public class FileFilter {
 	private static final String DATE_STRING = "2018-5-16 10:00:00";
 	
 	public static void main(String[] args) {
-//		Scanner scanner = new Scanner(System.in);
-//		System.out.println("请输入查询路径");
-//		String address = scanner.nextLine();
-//		System.out.println("请输入目标路径");
-//		String des = scanner.nextLine();
-//		System.out.println("请输入时间");
-//		String dateStr = scanner.nextLine();
 		String address = ADDRESS;
 		String dateStr = DATE_STRING;
-//		scanner.close();
 		SimpleDateFormat[] sdf = {new SimpleDateFormat("yyyy-MM-dd HH:mm:ss"), new SimpleDateFormat("yyyy-MM-dd")};
 		Date time = null;
 		for (SimpleDateFormat s : sdf) {
