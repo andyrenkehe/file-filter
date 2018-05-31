@@ -12,8 +12,8 @@ import java.util.Date;
 //import java.util.Scanner;
 
 public class FileFilter {
-	private static final String DEFAULT_DIRECTORY = "/Users/mr.he/Desktop";
-	private static final String ADDRESS = "/Users/mr.he/eclipse-workspace/wangda/web";
+	private static final String DEFAULT_DIRECTORY = "";//填写输出目录
+	private static final String ADDRESS = "";//填写输入目录
 	private static final String DATE_STRING = "2018-5-16 10:00:00";
 	
 	public static void main(String[] args) {
